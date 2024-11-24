@@ -3,10 +3,10 @@ import { ostc } from "./head_camera";
 
 const cmdChar = ";";
 const cmdAbbrv = ["over-the-shoulder-cam", "ots", "otscam", "otsc"];
-const defaultValues = {
-    anchorX: -0.75,
+const defaultValues = { // better one: -1.5 0 -2.5
+    anchorX: -1.5,
     anchorY: 0,
-    anchorZ: -1.5,
+    anchorZ: -2.5,
 };
 
 // Checks if the sender has operator permissions

@@ -49,7 +49,7 @@ function ostc(player, anchorX, anchorY, anchorZ) {
                 return;
             }
             setCamera(player, anchorX, anchorY, anchorZ);
-        }, 1);
+        }, 0.1);
     } else {
         system.run(()=>player.camera.clear());
         player.sendMessage("§bThe camera is now §l§cOFF§r§b!");

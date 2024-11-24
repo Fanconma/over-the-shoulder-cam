@@ -1,0 +1,47 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Fanconma"
+		]
+	},
+	"header": {
+		"name": "Better OTS Cam",
+		"description": "A better Over-the-Shoulder Camera on Bedrock Edition!",
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "d4cc66c0-1cf2-4777-b806-fe160044102f",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "4a0b800c-6efc-4473-8591-343c7d7a778b",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"uuid": "1242fb68-e54f-46d0-9f8b-cea3292afd5a",
+			"version": [1, 0, 0],
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/main.js"
+		}
+	],
+    "dependencies": [
+		{
+            "module_name": "@minecraft/server",
+            "version": "1.16.0-beta"
+        }
+    ]
+}
